@@ -1,0 +1,168 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] PlayerProfiles                                                     [pom]
+[INFO] api                                                                [jar]
+[INFO] worldguard6                                                        [jar]
+[INFO] worldguard7                                                        [jar]
+[INFO] worldguard-wrapper                                                 [jar]
+[INFO] core                                                               [jar]
+[INFO] dist                                                               [jar]
+[INFO] 
+[INFO] ------------------< com.muhammaddaffa:PlayerProfiles >------------------
+[INFO] Building PlayerProfiles 8.0.2                                      [1/7]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ PlayerProfiles ---
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\pom.xml to C:\Users\marti\.m2\repository\com\muhammaddaffa\PlayerProfiles\8.0.2\PlayerProfiles-8.0.2.pom
+[INFO] 
+[INFO] -----------------------< com.muhammaddaffa:api >------------------------
+[INFO] Building api 8.0.2                                                 [2/7]
+[INFO]   from api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\api\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ api ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ api ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ api ---
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\api\pom.xml to C:\Users\marti\.m2\repository\com\muhammaddaffa\api\8.0.2\api-8.0.2.pom
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\api\target\api-8.0.2.jar to C:\Users\marti\.m2\repository\com\muhammaddaffa\api\8.0.2\api-8.0.2.jar
+[INFO] 
+[INFO] -------------------< com.muhammaddaffa:worldguard6 >--------------------
+[INFO] Building worldguard6 8.0.2                                         [3/7]
+[INFO]   from worldguard6\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.bukkit:bukkit:jar:1.7.9-R0.2 is missing, no dependency information available
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ worldguard6 ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard6\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ worldguard6 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ worldguard6 ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard6\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ worldguard6 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ worldguard6 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ worldguard6 ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ worldguard6 ---
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard6\pom.xml to C:\Users\marti\.m2\repository\com\muhammaddaffa\worldguard6\8.0.2\worldguard6-8.0.2.pom
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard6\target\worldguard6-8.0.2.jar to C:\Users\marti\.m2\repository\com\muhammaddaffa\worldguard6\8.0.2\worldguard6-8.0.2.jar
+[INFO] 
+[INFO] -------------------< com.muhammaddaffa:worldguard7 >--------------------
+[INFO] Building worldguard7 8.0.2                                         [4/7]
+[INFO]   from worldguard7\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ worldguard7 ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard7\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ worldguard7 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ worldguard7 ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard7\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ worldguard7 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ worldguard7 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ worldguard7 ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ worldguard7 ---
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard7\pom.xml to C:\Users\marti\.m2\repository\com\muhammaddaffa\worldguard7\8.0.2\worldguard7-8.0.2.pom
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard7\target\worldguard7-8.0.2.jar to C:\Users\marti\.m2\repository\com\muhammaddaffa\worldguard7\8.0.2\worldguard7-8.0.2.jar
+[INFO] 
+[INFO] ----------------< com.muhammaddaffa:worldguard-wrapper >----------------
+[INFO] Building worldguard-wrapper 8.0.2                                  [5/7]
+[INFO]   from worldguard-wrapper\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ worldguard-wrapper ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard-wrapper\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ worldguard-wrapper ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ worldguard-wrapper ---
+[INFO] skip non existing resourceDirectory C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard-wrapper\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ worldguard-wrapper ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ worldguard-wrapper ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ worldguard-wrapper ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ worldguard-wrapper ---
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard-wrapper\pom.xml to C:\Users\marti\.m2\repository\com\muhammaddaffa\worldguard-wrapper\8.0.2\worldguard-wrapper-8.0.2.pom
+[INFO] Installing C:\Users\marti\Documents\GitHub\PlayerProfiles\worldguard-wrapper\target\worldguard-wrapper-8.0.2.jar to C:\Users\marti\.m2\repository\com\muhammaddaffa\worldguard-wrapper\8.0.2\worldguard-wrapper-8.0.2.jar
+[INFO] 
+[INFO] -----------------------< com.muhammaddaffa:core >-----------------------
+[INFO] Building core 8.0.2                                                [6/7]
+[INFO]   from core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.mdaffa48:MDLib:jar:2.0.16 is missing, no dependency information available
+Downloading from jitpack.io: https://jitpack.io/com/github/sirblobman/api/core/2.9-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.github.sirblobman.api:core:2.9-SNAPSHOT/maven-metadata.xml from/to jitpack.io (https://jitpack.io): status code: 401, reason phrase: Unauthorized (401)
+[WARNING] com.github.sirblobman.api:core:2.9-SNAPSHOT/maven-metadata.xml failed to transfer from https://jitpack.io during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of jitpack.io has elapsed or updates are forced. Original error: Could not transfer metadata com.github.sirblobman.api:core:2.9-SNAPSHOT/maven-metadata.xml from/to jitpack.io (https://jitpack.io): status code: 401, reason phrase: Unauthorized (401)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for PlayerProfiles 8.0.2:
+[INFO] 
+[INFO] PlayerProfiles ..................................... SUCCESS [  0.204 s]
+[INFO] api ................................................ SUCCESS [  0.921 s]
+[INFO] worldguard6 ........................................ SUCCESS [  0.192 s]
+[INFO] worldguard7 ........................................ SUCCESS [  0.236 s]
+[INFO] worldguard-wrapper ................................. SUCCESS [  0.049 s]
+[INFO] core ............................................... FAILURE [  0.894 s]
+[INFO] dist ............................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.637 s
+[INFO] Finished at: 2025-12-13T11:09:31-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project core: Could not resolve dependencies for project com.muhammaddaffa:core:jar:8.0.2
+[ERROR] dependency: com.github.mdaffa48:MDLib:jar:2.0.16 (compile)
+[ERROR] 	com.github.mdaffa48:MDLib:jar:2.0.16 was not found in https://hub.spigotmc.org/nexus/content/repositories/snapshots/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of spigot-repo has elapsed or updates are forced
+[ERROR] 	com.github.mdaffa48:MDLib:jar:2.0.16 was not found in https://repo.extendedclip.com/content/repositories/placeholderapi/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of placeholderapi has elapsed or updates are forced
+[ERROR] 	com.github.mdaffa48:MDLib:jar:2.0.16 was not found in https://maven.enginehub.org/repo/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of sk89q-repo has elapsed or updates are forced
+[ERROR] 	com.github.mdaffa48:MDLib:jar:2.0.16 was not found in https://nexus.sirblobman.xyz/public/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of sirblobman-public has elapsed or updates are forced
+[ERROR] 	com.github.mdaffa48:MDLib:jar:2.0.16 was not found in https://jitpack.io during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of jitpack.io has elapsed or updates are forced
+[ERROR] 	com.github.mdaffa48:MDLib:jar:2.0.16 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :core
